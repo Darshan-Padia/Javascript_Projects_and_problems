@@ -264,9 +264,9 @@ function myFunc() {
     });
     event.target.addEventListener("keyup", function (event) {
         let val = val_
-        console.log(val);
+        // console.log(val);
         let new_val = event.target.value;
-        console.log(new_val);
+        // console.log(new_val);
         if (JSON.parse(localStorage.getItem('task_list'))) {
             let arr_ = JSON.parse(localStorage.getItem('task_list'));
 
