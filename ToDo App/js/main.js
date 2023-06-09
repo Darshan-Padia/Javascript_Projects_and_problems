@@ -152,7 +152,7 @@ function loadPreviousTasks() {
 function createDiv() {
     // var input = document.getElementById("to_do");
 
-    if (input.value === "") {
+    if (input.value.trim() === "") {
         alert("Input cannot be empty!");
         input.style.border = '3px solid red'
         return;
