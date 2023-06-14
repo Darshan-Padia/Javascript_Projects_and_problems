@@ -1,5 +1,3 @@
-for (let i = 0; i < basicPrimes.length; i++) {
-    //   if (basicPrimes[i] <= n) {
-    //     primes.push(basicPrimes[i]);
-    //   }
+or (let i = 0; i < str_arr.length; i++) {
+    // finalNumInRoman+=str_arr[i];
     // }
